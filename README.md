@@ -1,2 +1,0 @@
-# Kakaotalk Clone
-CSS
