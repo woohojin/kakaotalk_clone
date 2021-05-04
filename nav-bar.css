@@ -1,9 +1,0 @@
-.nav {
-  background-color: #f9f9fa;
-  padding: 10px 30px;
-}
-.nav__list {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px soild rgba(121, 121, 121, 0.2);
-}
