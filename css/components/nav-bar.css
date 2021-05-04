@@ -34,8 +34,8 @@
 .nav__Etc {
   display: block;
   background-color: tomato;
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   position: absolute;
   left: 33px;
