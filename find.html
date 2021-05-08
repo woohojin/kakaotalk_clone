@@ -5,20 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>Chats</title>
   </head>
-
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
-
       <div class="status-bar__column">
         <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
@@ -29,23 +26,19 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
-
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
-
         <li class="nav__btn">
           <a class="nav__link" href="find.html">
             <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
-
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <i class="fas fa-ellipsis-h fa-2x"></i>
@@ -55,47 +48,48 @@
     </nav>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg badge-small"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"> </i>Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"> </i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__profile user-component__profile--xl" src="img/nicolas.jpg" />
-          <div class="user-component__text"></div>
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR Code</span>
         </div>
-        <h4 class="user-component__title user-component__title__name">Nicolas</h4>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book fa-2x"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon find-icons__icon__find">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>Invite</span>
+        </div>
       </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i></span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img class="user-component__profile user-component__profile--sm" src="img/nicolas.jpg" />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+      </div>
+      <div class="open--post">
+        <div class="open-post__column">
+          <h5>#BTS</h5>
+          <h6>#bts#army#friends</h6>
         </div>
+        <div class="open-post__column"></div>
       </div>
     </main>
 

@@ -3,6 +3,7 @@
 @import "screens/login.css";
 @import "screens/welcome-header.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";

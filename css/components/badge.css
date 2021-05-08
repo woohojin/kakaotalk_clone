@@ -13,6 +13,10 @@
   left: 20px;
   top: -17px;
 }
-.badge-chats {
-  right: 10px;
+.badge-small {
+  display: block;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
 }

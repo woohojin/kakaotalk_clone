@@ -21,6 +21,7 @@
   margin-right: 20px;
 }
 .user-component__title {
+  display: flex;
   font-weight: 600;
   font-size: 21px;
   color: black;
@@ -49,4 +50,8 @@
   margin-bottom: 10px;
   font-weight: 600;
   font-size: 14px;
+}
+.user-component__title__name {
+  display: flex;
+  transform: translateX(-270px);
 }
