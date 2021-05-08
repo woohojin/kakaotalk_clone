@@ -16,20 +16,9 @@
   color: #2e363e;
 }
 .nav__notification {
-  display: block;
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 12px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  left: 20px;
-  top: -17px;
+  left: 15px;
+  bottom: 15px;
 }
 .nav__Etc {
   display: block;
