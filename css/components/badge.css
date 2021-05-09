@@ -19,4 +19,7 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
+  position: absolute;
+  right: 17px;
+  top: 45px;
 }
