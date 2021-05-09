@@ -13,7 +13,7 @@
   left: 20px;
   top: -17px;
 }
-.badge-small {
+.badge-small__cog {
   display: block;
   background-color: tomato;
   width: 5px;
@@ -22,4 +22,14 @@
   position: absolute;
   right: 17px;
   top: 45px;
+}
+.badge-small__ellipsis {
+  display: block;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
 }

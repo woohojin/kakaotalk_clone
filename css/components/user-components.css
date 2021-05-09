@@ -43,7 +43,7 @@
 }
 .user-component__subtitle {
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
 }
 .user-component__time {
   display: block;
