@@ -12,5 +12,6 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
-.screen-header__icons {
+.screen-header__icons i {
+  transform: translateX(120px);
 }
