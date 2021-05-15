@@ -1,16 +1,22 @@
 @import "reset.css";
 @import "variables.css";
+
+/*screens*/
 @import "screens/login-screen.css";
 @import "screens/welcome-header-screen.css";
 @import "screens/friends-screen.css";
 @import "screens/find-screen.css";
 @import "screens/more-screen.css";
+@import "screens/settings-screen.css";
+
+/*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
