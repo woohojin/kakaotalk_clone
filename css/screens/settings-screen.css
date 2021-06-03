@@ -13,4 +13,5 @@
   margin-right: 20px;
 }
 .settings__setting__column :last-child {
+  opacity: 0.5;
 }
