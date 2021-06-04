@@ -12,3 +12,15 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog linear infinite;
+}

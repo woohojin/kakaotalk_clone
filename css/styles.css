@@ -9,6 +9,7 @@
 @import "screens/more-screen.css";
 @import "screens/settings-screen.css";
 @import "screens/chat-screen.css";
+@import "screens/splash-screen.css";
 
 /*components*/
 @import "components/status-bar.css";
