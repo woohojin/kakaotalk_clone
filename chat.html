@@ -25,7 +25,7 @@
 
     <header class="alt-header chat-alt">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
           <i class="fas fa-chevron-left fa-2x"></i>
         </a>
       </div>
@@ -37,7 +37,8 @@
         <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main class="main-screen main-chat">
+
+    <main class="main-chat-screen">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
       <div class="message-row">
         <img src="img/nicolas.jpg" />
@@ -49,7 +50,29 @@
           </div>
         </div>
       </div>
+      <div class="message-row message-row--send">
+        <div class="message-row__content">
+          <div class="message__receive">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
   </body>
 </html>
