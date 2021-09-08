@@ -1,0 +1,109 @@
+.user-profile {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.user-profile__image {
+  margin-right: 15px;
+}
+.user-profile__image img {
+  width: 75px;
+  height: 75px;
+  border-radius: 30px;
+}
+.user-profile__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-profile__column__title {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+.more--profile {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.user-profile__icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.user-profile__icon {
+  font-size: 35px;
+}
+.user-profile-channel__header {
+  display: flex;
+  margin: 20px 10px 30px 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  padding-top: 10px;
+  border-top: var(--horizontal-line);
+}
+.user-profile-channel__header__column {
+  font-weight: 600;
+  font-size: 15px;
+}
+.user-profile-channel__header__icons {
+  font-size: 18px;
+}
+.user-profile-channel__body {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.user-profile-channel__body__profile {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.user-profile-channel__body__profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+}
+.user-profile-channel__body div:nth-child(2) {
+  font-size: 20px;
+}
+.user-profile-channel__body div:nth-child(3) {
+  margin-left: auto;
+  opacity: 0.4;
+  font-size: 18px;
+}
+.user-profile-channel__body div:last-child {
+  font-size: 20px;
+  transform: translateY(-1.4px);
+  margin-left: 7px;
+  margin-right: 10px;
+  opacity: 0.4;
+}
+.user-profile__chats {
+  margin-top: 40px;
+}
+.user-profile__chats .user-profile__image img {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  border-radius: 23px;
+}
+.user-profile__chats .user-profile__column__title {
+  align-items: flex-start;
+}
+.user-profile__chats .user-profile__column__subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.user-profile__chats .user-profile__time {
+  display: flex;
+  margin-left: 38px;
+  margin-top: 6px;
+  font-size: 15px;
+  opacity: 0.5;
+}

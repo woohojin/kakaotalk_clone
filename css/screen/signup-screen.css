@@ -1,0 +1,40 @@
+#sign-form {
+  display: flex;
+  margin: 68px 18px;
+  flex-direction: column;
+}
+#sign-form input {
+  display: flex;
+  border: none;
+  padding: 25px 0px;
+  font-size: 20px;
+}
+#sign-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#sign-form input::placeholder {
+  color: var(--color-grey);
+}
+#sign-form input[type="submit"] {
+  cursor: pointer;
+  background-color: var(--yellow);
+  margin-top: 40px;
+  padding: 17px 0;
+  border-radius: 5px;
+}
+#sign-form input[value] {
+  justify-content: center;
+}
+#sign-form a {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: inherit;
+}
+#sign-form input:focus {
+  border-color: var(--yellow);
+}
+#sign-form a:last-child {
+  margin-top: 30px;
+}
