@@ -1,25 +1,25 @@
-#login-form {
+#signup-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
-#login-form input {
+#signup-form input {
   padding: 15px 0px;
   font-size: 18px;
   border: none;
   margin-bottom: 25px;
 }
-#login-form input::placeholder {
+#signup-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-#login-form input:not([type="submit"]) {
+#signup-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
-#login-form input:focus {
+#signup-form input:focus {
   border-color: var(--yellow);
 }
-#login-form input[type="submit"] {
+#signup-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
   padding-top: 20px;
@@ -27,7 +27,7 @@
   border-radius: 5px;
   transform: translateY(5px);
 }
-#login-form input[type="button"] {
+#signup-form input[type="button"] {
   background-color: var(--yellow);
   cursor: pointer;
   padding-top: 20px;
@@ -38,7 +38,7 @@
   padding-right: 180px;
 }
 
-#login-form a {
+#signup-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;

@@ -10,6 +10,7 @@
 @import "screens/settings-screen.css";
 @import "screens/chat-screen.css";
 @import "screens/splash-screen.css";
+@import "screens/signup-screen.css";
 
 /*components*/
 @import "components/status-bar.css";
@@ -21,6 +22,7 @@
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
