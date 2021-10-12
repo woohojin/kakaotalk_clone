@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats</title>
   </head>
-  <body>
+  <body onload="realtimeClock()">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <form id="realTimeClock" name="realTime">
+          <input type="text" name="realTimeInput" size="20" readonly="readonly" />
+        </form>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -53,7 +55,6 @@
       <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span> <i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span>
           <a href="settings.html">
@@ -67,10 +68,10 @@
       <a href="chat.html">
         <div class="user-component">
           <div class="user-component__column">
-            <img class="user-component__profile" src="img/nicolas.jpg" />
+            <img class="user-component__profile" src="img/sam-ryder.jpg" />
             <div class="user-component__text">
-              <h4 class="user-component__title">Nicolas</h4>
-              <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+              <h4 class="user-component__title">Sam Ryder</h4>
+              <h6 class="user-component__subtitle">Hello</h6>
             </div>
           </div>
           <div class="user-component__column">
@@ -82,5 +83,6 @@
     </main>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/time.js"></script>
   </body>
 </html>

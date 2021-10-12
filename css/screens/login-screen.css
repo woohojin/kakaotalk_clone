@@ -7,25 +7,17 @@
   padding: 15px 0px;
   font-size: 18px;
   border: none;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-#login-form input:not([type="submit"]) {
+#login-form input:not([type="button"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input:focus {
   border-color: var(--yellow);
-}
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding-top: 20px;
-  padding-bottom: 18px;
-  border-radius: 5px;
-  transform: translateY(5px);
 }
 #login-form input[type="button"] {
   background-color: var(--yellow);
@@ -33,6 +25,7 @@
   padding-top: 20px;
   padding-bottom: 18px;
   border-radius: 5px;
+  transform: translateY(5px);
 }
 
 #login-form a {
@@ -41,4 +34,8 @@
   color: inherit;
   font-weight: 600;
   font-size: 15px;
+}
+#signup {
+  margin-bottom: 20px;
+  margin-top: 15px;
 }

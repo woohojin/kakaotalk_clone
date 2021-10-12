@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More</title>
   </head>
-  <body>
+  <body onload="realtimeClock()">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <form id="realTimeClock" name="realTime">
+          <input type="text" name="realTimeInput" size="20" readonly="readonly" />
+        </form>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -65,15 +67,13 @@
     <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img class="user-component__profile user-component__profile--xl" src="img/nicolas.jpg" />
+          <img class="user-component__profile user-component__profile--xl" src="img/profile.png" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
+            <h4 class="user-component__title">User</h4>
             <h6 class="user-component__subtitle">+1 787-493-4219</h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
-        </div>
+        <div class="user-component__column"></div>
       </div>
       <div class="icon-row">
         <div class="icon-row__icon">
@@ -107,5 +107,6 @@
     </main>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/time.js"></script>
   </body>
 </html>

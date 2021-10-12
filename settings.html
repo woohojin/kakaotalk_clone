@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings</title>
   </head>
-  <body>
+  <body onload="realtimeClock()">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <form id="realTimeClock" name="realTime">
+          <input type="text" name="realTimeInput" size="20" readonly="readonly" />
+        </form>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -57,7 +59,7 @@
             <i class="fas fa-info-circle"></i>
             <span>Version</span>
           </div>
-          <div class="settings__setting__column">Latest Version</div>
+          <div class="settings__setting__column">2021.10.13.ver</div>
         </li>
       </ul>
     </main>
@@ -88,5 +90,6 @@
     </nav>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <script src="js/time.js"></script>
   </body>
 </html>

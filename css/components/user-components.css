@@ -15,8 +15,8 @@
   align-items: flex-end;
 }
 .user-component__profile {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 30px;
   margin-right: 20px;
 }
@@ -53,5 +53,5 @@
 }
 .user-component__title__name {
   display: flex;
-  transform: translateX(-270px);
+  transform: translateX(-285px);
 }

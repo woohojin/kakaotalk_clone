@@ -73,9 +73,21 @@
   border-radius: 13px;
   border-top-left-radius: 0px;
 }
+.message__not-read {
+  color: #fae100;
+  font-size: 13px;
+}
 .message__receive {
   display: flex;
   align-items: flex-end;
+}
+.message__bubble__side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.message__not-read {
+  margin-bottom: 2px;
 }
 .message__time {
   font-size: 12px;
@@ -115,8 +127,7 @@
 .reply input {
   height: 40px;
   width: 100%;
-  border: var(--main-border);
-  border-radius: 20px;
+  border: none;
   padding-left: 10px;
   transition: all 0.3s ease-in-out;
 }
