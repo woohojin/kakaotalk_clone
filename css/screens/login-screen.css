@@ -39,3 +39,6 @@
   margin-bottom: 20px;
   margin-top: 16px;
 }
+#realTimeClock input[type="text"] {
+  border: none;
+}
