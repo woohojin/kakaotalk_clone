@@ -51,7 +51,3 @@
   font-weight: 600;
   font-size: 14px;
 }
-.user-component__title__name {
-  display: flex;
-  transform: translateX(-285px);
-}
