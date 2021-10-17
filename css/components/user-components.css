@@ -51,3 +51,9 @@
   font-weight: 600;
   font-size: 14px;
 }
+.user-component__title__name {
+  transform: translateX(45px) translateY(-50px);
+}
+.user-component__chats {
+  margin-bottom: 30px;
+}
