@@ -31,7 +31,7 @@ function login() {
 
   if (chkEmail && chkPw) {
     console.log("Success to Login");
-    window.location = "file:///C:/Programming/Git/kakaotalk_clone/friends.html";
+    window.location.href = "https://woohojin.github.io/kakaotalk_clone/friends";
   }
 }
 
